@@ -1,0 +1,81 @@
+:root {
+  --primary:color: 
+}
+
+.da-margin{
+  margin: 0px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.heads {
+  position: relative;
+  background-color: darkblue;
+  color: white;
+  padding: 2em;
+  text-align: center;
+  margin: 0px;
+}
+
+.main-text {
+  font-size: 25px;
+  margin: 15px;
+}
+
+  .Front {
+  text-align: center;
+  border-top: 30px solid lightblue;
+}
+
+.left-side {
+  flex-direction: row;
+  display: inline;
+  max-width: 80%;
+  margin: 20px;
+  height: 80vh;
+}
+
+.paragraphs {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.right-side{
+  flex-direction: column;
+  display: flex;
+  max-width: 240px;
+  margin: 20px;
+  margin-top: 150px;
+  align-items: center;
+  padding-left: 100px;
+  font-size: medium;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  height: 10em;
+  width: 15em;
+  align-items: center;
+  object-fit: cover;
+}
+
+.under-image {
+  display: inline;
+}
+
+.Title-Under {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.da-foots {
+  background-color: darkblue;
+  height: 100px;
+}
